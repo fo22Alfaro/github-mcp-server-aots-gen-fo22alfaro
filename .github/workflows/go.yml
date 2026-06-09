@@ -1,4 +1,4 @@
-name: Build and Test Go Project
+name: Build and github-mcp-server-aots-gen-fo22alfaro Go Project
 on: [push, pull_request]
 
 permissions:
@@ -42,3 +42,4 @@ jobs:
 
       - name: Build
         run: go build -v ./cmd/github-mcp-server
+
